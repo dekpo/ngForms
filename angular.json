@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "formTempReact"
+  "defaultProject": "formTempReact",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -1,0 +1,14 @@
+<h2>Reactive Form</h2>
+
+<form [formGroup]="form" (ngSubmit)="onSubmit( form.value )">
+  <p>
+  <label>Login: </label>
+  <input type="text" formControlName="login" >
+</p>
+<p>
+  <label>Password: </label>
+  <input type="password" formControlName="password" >
+</p>
+<button type="submit" [disabled]="!form.valid">Submit</button>
+</form>
+
